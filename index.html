@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#087c72" />
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="favicon.png">
+<meta name="description" content="Life Care Hospital, Bode Barsain Municipality-5, Saptari — modern responsive hospital website demo." />
+  <title>Life Care Hospital | Bode Barsain, Saptari Nepal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span>📍 Bode Barsain Municipality-5, Saptari, Nepal</span>
+        <span class="desktop-only">🕒 Emergency service: 24/7</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+9779807755466">📞 +977 980-7755466</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header" id="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Life Care Hospital home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 52 52" role="img">
+            <path d="M21 5h10v16h16v10H31v16H21V31H5V21h16z"/>
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <strong>Life Care Hospital</strong>
+          <small>Care • Compassion • Community</small>
+        </span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#departments">Departments</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#appointment">Book Appointment</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <span class="eyebrow">24/7 Healthcare in Bode Barsain</span>
+          <h1>Modern care.<br><span>Closer to home.</span></h1>
+          <p>
+            A clean, responsive digital experience for Life Care Hospital—designed to help patients
+            find services, contact the hospital, and request appointments quickly.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#appointment">Book an Appointment <span>→</span></a>
+            <a class="btn btn-glass" href="tel:+9779807755466">Call Emergency</a>
+          </div>
+          <div class="hero-trust">
+            <div><b>24/7</b><span>Open Every Day</span></div>
+            <div><b>Fast</b><span>Emergency Access</span></div>
+            <div><b>Local</b><span>Saptari Community</span></div>
+          </div>
+        </div>
+
+        <aside class="quick-card reveal" aria-label="Quick help">
+          <div class="quick-head">
+            <span class="pulse"></span>
+            <div>
+              <small>NEED MEDICAL HELP?</small>
+              <strong>We’re available 24/7</strong>
+            </div>
+          </div>
+          <div class="quick-links">
+            <a href="tel:+9779807755466"><span class="qicon">☎</span><div><small>Emergency Call</small><b>+977 980-7755466</b></div><span>›</span></a>
+            <a href="#appointment"><span class="qicon">✚</span><div><small>Online Service</small><b>Request Appointment</b></div><span>›</span></a>
+            <a href="#location"><span class="qicon">⌖</span><div><small>Visit Us</small><b>Get Directions</b></div><span>›</span></a>
+          </div>
+          <div class="quick-note">
+            <b>For emergencies</b>
+            <p>Please call the hospital directly for immediate assistance.</p>
+          </div>
+        </aside>
+      </div>
+
+      <div class="wave">
+        <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,56 C300,100 500,10 760,45 C1010,80 1190,25 1440,42 L1440,90 L0,90 Z"></path></svg>
+      </div>
+    </section>
+
+    <section class="feature-strip">
+      <div class="container feature-grid">
+        <article><span>⚕</span><div><b>Patient-first care</b><small>Clear, accessible information</small></div></article>
+        <article><span>⏱</span><div><b>24/7 availability</b><small>Always ready when needed</small></div></article>
+        <article><span>☎</span><div><b>Easy contact</b><small>One-tap calling on mobile</small></div></article>
+        <article><span>⌖</span><div><b>Local hospital</b><small>Bode Barsain, Saptari</small></div></article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container split">
+        <div class="about-media reveal">
+          <img class="main-photo" src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=85" alt="Modern hospital corridor">
+          <div class="experience-card">
+            <strong>24/7</strong>
+            <span>Healthcare access<br>for the community</span>
+          </div>
+          <div class="small-photo">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=85" alt="Healthcare professional">
+          </div>
+        </div>
+        <div class="section-copy reveal">
+          <span class="section-kicker">ABOUT LIFE CARE HOSPITAL</span>
+          <h2>Healthcare that feels <span>human.</span></h2>
+          <p class="lead">A modern website should make healthcare information simple, trustworthy and easy to reach from any device.</p>
+          <p>This redesign concept is intentionally structured around patient needs: emergency contact, appointment requests, services, facilities and location details are all placed within quick reach.</p>
+          <div class="checks">
+            <div>✓ Clear emergency access</div>
+            <div>✓ Mobile-first experience</div>
+            <div>✓ Easy appointment flow</div>
+            <div>✓ Accessible local information</div>
+          </div>
+          <a class="text-link" href="#services">Explore our services <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">OUR SERVICES</span>
+            <h2>Care for every <span>stage of life.</span></h2>
+          </div>
+          <p>Demo service categories are shown below and can be replaced with the hospital’s confirmed clinical services before production launch.</p>
+        </div>
+        <div class="cards service-cards">
+          <article class="service-card reveal">
+            <div class="service-icon">✚</div><h3>Emergency Care</h3>
+            <p>Immediate access point for urgent medical attention, supported by clear emergency contact information.</p>
+            <a href="tel:+9779807755466">Call now →</a>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon">♡</div><h3>General Medicine</h3>
+            <p>Everyday medical consultation concept area for diagnosis, treatment and continuing care.</p>
+            <a href="#appointment">Request visit →</a>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon">♙</div><h3>Women & Child Care</h3>
+            <p>A dedicated information area suitable for maternal, pediatric and family-focused services.</p>
+            <a href="#appointment">Request visit →</a>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon">⌁</div><h3>Diagnostics</h3>
+            <p>A flexible area for laboratory, imaging and other diagnostic capabilities once officially confirmed.</p>
+            <a href="#contact">Ask hospital →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section departments" id="departments">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <span class="section-kicker">DEPARTMENTS</span>
+          <h2>A simpler way to <span>find care.</span></h2>
+          <p>These are demo department placeholders for the redesign. Publish only services verified by the hospital.</p>
+        </div>
+        <div class="dept-grid">
+          <a class="dept reveal" href="#appointment"><span>♥</span><b>Cardiology</b><small>Heart care</small></a>
+          <a class="dept reveal" href="#appointment"><span>✚</span><b>General Medicine</b><small>Primary care</small></a>
+          <a class="dept reveal" href="#appointment"><span>☻</span><b>Pediatrics</b><small>Child health</small></a>
+          <a class="dept reveal" href="#appointment"><span>⚕</span><b>Gynecology</b><small>Women’s health</small></a>
+          <a class="dept reveal" href="#appointment"><span>◉</span><b>Diagnostics</b><small>Tests & screening</small></a>
+          <a class="dept reveal" href="#appointment"><span>✧</span><b>Emergency</b><small>Urgent care</small></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section facilities" id="facilities">
+      <div class="container">
+        <div class="facility-panel">
+          <div class="facility-copy reveal">
+            <span class="section-kicker light">PATIENT EXPERIENCE</span>
+            <h2>Designed around speed, clarity and trust.</h2>
+            <p>This website concept avoids overcrowded menus and outdated layouts. Important patient actions remain visible, readable and easy to use.</p>
+            <div class="facility-list">
+              <div><span>01</span><p><b>Fast mobile navigation</b><small>Optimized for phones and tablets.</small></p></div>
+              <div><span>02</span><p><b>One-tap emergency calling</b><small>Phone contact remains visible throughout the site.</small></p></div>
+              <div><span>03</span><p><b>Responsive appointment form</b><small>Simple, friction-free patient inquiry flow.</small></p></div>
+            </div>
+          </div>
+          <div class="facility-image reveal">
+            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=85" alt="Hospital facility">
+            <div class="floating-badge">Modern • Responsive • Accessible</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section appointment" id="appointment">
+      <div class="container appointment-grid">
+        <div class="appointment-copy reveal">
+          <span class="section-kicker">APPOINTMENT REQUEST</span>
+          <h2>Request a visit in <span>less than a minute.</span></h2>
+          <p>This demo form works in the browser and prepares a WhatsApp-style message / fallback call prompt without collecting data on a server.</p>
+          <div class="contact-mini">
+            <div><span>☎</span><p><small>Hospital Phone</small><b>+977 980-7755466</b></p></div>
+            <div><span>⌖</span><p><small>Location</small><b>Bodebarsaien 56400, Saptari</b></p></div>
+          </div>
+        </div>
+        <form class="appointment-form reveal" id="appointmentForm">
+          <div class="form-row">
+            <label>Full Name<input required name="name" type="text" placeholder="Patient name"></label>
+            <label>Phone Number<input required name="phone" type="tel" placeholder="+977 98XXXXXXXX"></label>
+          </div>
+          <div class="form-row">
+            <label>Preferred Date<input required name="date" type="date"></label>
+            <label>Department
+              <select name="department">
+                <option>General Consultation</option>
+                <option>Emergency</option>
+                <option>Women & Child Care</option>
+                <option>Diagnostics</option>
+                <option>Other</option>
+              </select>
+            </label>
+          </div>
+          <label>Message<textarea name="message" rows="4" placeholder="Briefly describe your request"></textarea></label>
+          <button class="btn btn-primary submit" type="submit">Prepare Appointment Request <span>→</span></button>
+          <p class="form-note" id="formNote">Demo only — no patient information is stored by this static website.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="location" id="location">
+      <div class="container location-card reveal">
+        <div>
+          <span class="section-kicker">VISIT THE HOSPITAL</span>
+          <h2>Life Care Hospital</h2>
+          <p>HHGP+HVG, Bodebarsaien 56400, Nepal</p>
+          <div class="location-actions">
+            <a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=26.5764276,86.5871925">Open in Google Maps</a>
+            <a class="btn btn-outline" href="tel:+9779807755466">Call Hospital</a>
+          </div>
+        </div>
+        <div class="map-frame">
+          <iframe title="Life Care Hospital location" loading="lazy" allowfullscreen
+            src="https://maps.google.com/maps?q=26.5764276,86.5871925&z=16&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand light-brand" href="#home">
+          <span class="brand-mark"><svg viewBox="0 0 52 52"><path d="M21 5h10v16h16v10H31v16H21V31H5V21h16z"/></svg></span>
+          <span class="brand-copy"><strong>Life Care Hospital</strong><small>Bode Barsain, Saptari</small></span>
+        </a>
+        <p>A modern website redesign concept focused on accessible local healthcare information and patient-friendly navigation.</p>
+      </div>
+      <div><h4>Quick Links</h4><a href="#about">About</a><a href="#services">Services</a><a href="#departments">Departments</a><a href="#appointment">Appointment</a></div>
+      <div><h4>Contact</h4><a href="tel:+9779807755466">+977 980-7755466</a><span>Bodebarsaien 56400</span><span>Saptari, Nepal</span><span>Open 24 hours</span></div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Life Care Hospital. Demo design concept.</span>
+      <span>Designed & Developed By Pream Shah</span>
+    </div>
+  </footer>
+
+  <div class="contact-float">
+    <div class="whatsapp-panel" id="whatsappPanel" aria-hidden="true">
+      <div class="whatsapp-panel-head">
+        <div>
+          <small>WHATSAPP</small>
+          <strong>Life Care Hospital</strong>
+        </div>
+        <button type="button" id="closeWhatsapp" aria-label="Close WhatsApp panel">×</button>
+      </div>
+      <p>Send a quick message to the hospital.</p>
+      <a
+        class="whatsapp-chat"
+        href="https://wa.me/9779807755466?text=Hello%20Life%20Care%20Hospital%2C%20I%20would%20like%20to%20ask%20about%20an%20appointment."
+        target="_blank"
+        rel="noopener"
+      >
+        <span class="wa-logo">WA</span>
+        <span><small>Start chat</small><b>+977 980-7755466</b></span>
+        <span>→</span>
+      </a>
+    </div>
+
+    <div class="float-actions">
+      <a class="floating-call" href="tel:+9779807755466" aria-label="Call Life Care Hospital">☎</a>
+      <button class="floating-whatsapp" id="whatsappToggle" type="button" aria-label="Open WhatsApp chat" aria-expanded="false">
+        <span class="wa-dot"></span>
+        <span class="wa-symbol">WA</span>
+      </button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
